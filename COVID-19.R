@@ -6,10 +6,8 @@ library(RCurl)
 # Note: You have to have readr, RCurl, dplyr and ggplot2 packages
 # installed for this code to work. I am using R version 3.6.2.
 
-# Read the .csv file for COVID-19 data issued by the EU.
+# Read the .csv file for COVID-19 data issued by the WHO.
 # This data will refresh every time this script is run.
-
-# Note: This line of code was taken from the EU open data site.
 data <- read_csv("https://covid19.who.int/WHO-COVID-19-global-data.csv")
 
 # Create an export the plot as pdf
